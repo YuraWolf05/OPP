@@ -100,3 +100,4 @@ B:\Games\OOP\Volchkov\lab8vN\Lab-1\obj\Debug\net8.0\refint\Lab-1.dll
 B:\Games\OOP\Volchkov\lab8vN\Lab-1\obj\Debug\net8.0\Lab-1.pdb
 B:\Games\OOP\Volchkov\lab8vN\Lab-1\obj\Debug\net8.0\Lab-1.genruntimeconfig.cache
 B:\Games\OOP\Volchkov\lab8vN\Lab-1\obj\Debug\net8.0\ref\Lab-1.dll
+B:\Games\OOP\Volchkov\lab8vN\Lab-1\obj\Debug\net8.0\Lab-1.sourcelink.json
