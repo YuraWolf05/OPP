@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "B:\\Games\\OOP\\Volchkov\\lab1\\Lab2v8\\Lab2v8.csproj": {}
+    "B:\\Games\\OOP\\Volchkov\\Lab2v8\\Lab2v8.csproj": {}
   },
   "projects": {
-    "B:\\Games\\OOP\\Volchkov\\lab1\\Lab2v8\\Lab2v8.csproj": {
+    "B:\\Games\\OOP\\Volchkov\\Lab2v8\\Lab2v8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Games\\OOP\\Volchkov\\lab1\\Lab2v8\\Lab2v8.csproj",
+        "projectUniqueName": "B:\\Games\\OOP\\Volchkov\\Lab2v8\\Lab2v8.csproj",
         "projectName": "Lab2v8",
-        "projectPath": "B:\\Games\\OOP\\Volchkov\\lab1\\Lab2v8\\Lab2v8.csproj",
+        "projectPath": "B:\\Games\\OOP\\Volchkov\\Lab2v8\\Lab2v8.csproj",
         "packagesPath": "C:\\Users\\volch\\.nuget\\packages\\",
-        "outputPath": "B:\\Games\\OOP\\Volchkov\\lab1\\Lab2v8\\obj\\",
+        "outputPath": "B:\\Games\\OOP\\Volchkov\\Lab2v8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\volch\\AppData\\Roaming\\NuGet\\NuGet.Config",
