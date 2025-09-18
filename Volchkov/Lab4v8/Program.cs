@@ -29,8 +29,8 @@ namespace Lab4
             double totalDay = devices.Sum(d => d.GetDailyConsumption());
             double totalWeek = devices.Sum(d => d.GetWeeklyConsumption());
 
-            Console.WriteLine($"Загальне споживання за день: {totalDay} кВт·год");
-            Console.WriteLine($"Загальне споживання за тиждень: {totalWeek} кВт·год");
+            Console.WriteLine($"Загальне споживання за день: {totalDay:F2} кВт·год");
+            Console.WriteLine($"Загальне споживання за тиждень: {totalWeek:F2} кВт·год");
         }
     }
 }
