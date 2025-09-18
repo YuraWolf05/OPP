@@ -13,8 +13,8 @@ namespace Lab4
             List<Device> devices = new List<Device>
             {
                 
-                new Laptop("Dell XPS", 65, rnd.Next(1, 25)), // 65W, 5 год/день
-                new Lamp("Philips LED", 10, rnd.Next(1, 25)) // 10W, 6 год/день
+                new Laptop("Dell XPS", 65, rnd.Next(1, 25)), // 65W, Random год/день
+                new Lamp("Philips LED", 10, rnd.Next(1, 25)) // 10W, Random год/день
             };
 
             Console.WriteLine("=== Iнформацiя про прилади ===");
