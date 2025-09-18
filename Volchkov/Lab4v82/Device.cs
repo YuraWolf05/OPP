@@ -2,7 +2,7 @@ using System;
 
 namespace Lab4
 {
-    // абстрактний клас для спільних властивостей усіх приладів
+    // Абстрактний клас для спільних властивостей усіх приладів
     public abstract class Device : IPowerUsage
     {
         public string Name { get; set; }
@@ -16,7 +16,7 @@ namespace Lab4
             HoursPerDay = hoursPerDay;
         }
 
-        // абстрактні методи, які реалізувати похідні класи
+        // Абстрактні методи, які обов’язково мають реалізувати похідні класи
         public abstract double GetDailyConsumption();
         public abstract double GetWeeklyConsumption();
 

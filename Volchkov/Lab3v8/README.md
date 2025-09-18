@@ -15,7 +15,7 @@
 - Перевизначено метод `DisplayInfo()` з використанням `override`.
 - Продемонстровано роботу поліморфізму на колекції `List<Product>`.
 
-## Приклад запуску
+## Приклад запуску ![Lab 3](../../screenshots/lab3.png)
 === Вміст кошика ===
 Book: C# Basics, Author: Іваненко, Price: 250 UAH
 Food: Яблуко, Price: 30 UAH, Expiration: 20.09.2025
@@ -26,4 +26,3 @@ Food: Хліб, Price: 20 UAH, Expiration: 17.09.2025
 Середня ціна книжок: 325 UAH
 Середня ціна їжі: 25 UAH
 
-[Зображення](http://url/lab3.png)

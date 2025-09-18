@@ -2,12 +2,11 @@ using System;
 
 namespace Lab4
 {
-    public class Laptop : Device
+    public class Lamp : Device
     {
-        public Laptop(string name, double power, double hoursPerDay)
+        public Lamp(string name, double power, double hoursPerDay)
             : base(name, power, hoursPerDay) { }
 
-        // Споживання за день = потужність (Вт) * години / 1000 (кВт·год)
         public override double GetDailyConsumption()
         {
             return (Power * HoursPerDay) / 1000.0;
@@ -20,7 +19,7 @@ namespace Lab4
 
         public override void ShowInfo()
         {
-            Console.WriteLine($"Laptop: {Name}, Power: {Power}W, Hours: {HoursPerDay}/day");
+            Console.WriteLine($"Lamp: {Name}, Power: {Power}W, Hours: {HoursPerDay}/day");
         }
     }
 }
