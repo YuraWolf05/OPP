@@ -21,8 +21,8 @@ namespace Lab4
             foreach (var d in devices)
             {
                 d.ShowInfo();
-                Console.WriteLine($"Добове споживання: {d.GetDailyConsumption()} кВт·год");
-                Console.WriteLine($"Тижневе споживання: {d.GetWeeklyConsumption()} кВт·год\n");
+                Console.WriteLine($"Добове споживання: {d.GetDailyConsumption():F2} кВт·год");
+                Console.WriteLine($"Тижневе споживання: {d.GetWeeklyConsumption():F2} кВт·год\n");
             }
 
             // Загальне споживання за день і тиждень
