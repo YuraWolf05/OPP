@@ -112,7 +112,7 @@ public class FakePrinter : IPrinter
     public bool WasCalled = false;
     public void Print() => WasCalled = true;
 }
-
+```
 Тест не залежить від зайвих методів (`Scan`, `Fax`).
 
 ### 4. Висновок
@@ -120,5 +120,6 @@ public class FakePrinter : IPrinter
 * **ISP** робить інтерфейси простими та зрозумілими
 * **DIP** зменшує зв’язаність між компонентами
 * Разом вони забезпечують гнучку архітектуру, зручну для DI та автоматизованого тестування
+
 
 
